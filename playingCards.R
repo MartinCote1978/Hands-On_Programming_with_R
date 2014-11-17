@@ -1,5 +1,5 @@
 ## Reading in the deck.csv file
-deck <- read.csv("~/R/Hands-On Programming with R/deck.csv")
+deck <- read.csv("deck.csv")
 
 ## Save the file as a csv
 write.csv(deck, file="cards.csv", row.names=FALSE)

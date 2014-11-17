@@ -22,7 +22,7 @@ make.PlayingCardsFunctions <- function(deck) {
 }
 
 ## Reading in the deck.csv file
-deck <- read.csv("~/R/Hands-On Programming with R/deck.csv")
+deck <- read.csv("deck.csv")
 
 cards_func <- make.PlayingCardsFunctions(deck)
 deal <- cards_func$deal
